@@ -79,5 +79,5 @@ call C:\ProgramData\chocolatey\bin\RefreshEnv.cmd
 pip2 install pywin32
 
 REM Setup Depot Tools
-git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git C:\depot_tools
+git clone https://github.com/heyunjiang/depot_tools.git C:\depot_tools
 SET PATH=%PATH%;C:\depot_tools\
