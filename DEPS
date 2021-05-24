@@ -97,7 +97,7 @@ deps = {
     'condition': 'process_deps',
   },
   'src/third_party/squirrel.mac/vendor/ReactiveObjC': {
-    'url': 'https://github.com/ReactiveCocoa/ReactiveObjC.git@74ab5baccc6f7202c8ac69a8d1e152c29dc1ea76',
+    'url': 'https://github.com/ReactiveCocoa/ReactiveObjC.git@1af6617f007cae727dce48d2031cc1e66d06f04a',
     'condition': 'process_deps'
   },
   'src/third_party/squirrel.mac/vendor/Mantle': {
