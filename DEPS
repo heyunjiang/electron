@@ -14,7 +14,7 @@ gclient_gn_args = [
 
 vars = {
   'chromium_version':
-    '92.0.4505.0',
+    '3bba0ab68782ee8fc8e88da51ee24d131477ae35',
   'node_version':
     'v14.16.1',
   'nan_version':
@@ -77,7 +77,7 @@ vars = {
 
 deps = {
   'src': {
-    'url': (Var("chromium_git")) + '/chromium/src.git@' + (Var("chromium_version")),
+    'url': 'https://github.com/heyunjiang/chromium/src.git@' + (Var("chromium_version")),
     'condition': 'checkout_chromium and process_deps',
   },
   'src/third_party/nan': {
