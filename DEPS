@@ -77,7 +77,7 @@ vars = {
 
 deps = {
   'src': {
-    'url': 'https://github.com/heyunjiang/chromium/src.git@' + (Var("chromium_version")),
+    'url': 'https://github.com/heyunjiang/chromium.git@' + (Var("chromium_version")),
     'condition': 'checkout_chromium and process_deps',
   },
   'src/third_party/nan': {
