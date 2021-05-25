@@ -14,7 +14,7 @@ gclient_gn_args = [
 
 vars = {
   'chromium_version':
-    '3bba0ab68782ee8fc8e88da51ee24d131477ae35',
+    '2339982b1f2353e7b763054c602cb8ba1eea4c4e',
   'node_version':
     'v14.16.1',
   'nan_version':
@@ -97,7 +97,7 @@ deps = {
     'condition': 'process_deps',
   },
   'src/third_party/squirrel.mac/vendor/ReactiveObjC': {
-    'url': 'https://github.com/ReactiveCocoa/ReactiveObjC.git@1af6617f007cae727dce48d2031cc1e66d06f04a',
+    'url': 'https://github.com/ReactiveCocoa/ReactiveObjC.git@74ab5baccc6f7202c8ac69a8d1e152c29dc1ea76',
     'condition': 'process_deps'
   },
   'src/third_party/squirrel.mac/vendor/Mantle': {
